@@ -1,6 +1,8 @@
 package com.test.springboothelloworld.controller;
 
 import com.test.springboothelloworld.DTO.Person;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    @Value("${person.last-name}")
+    private String name ;
+
     @RequestMapping("/hello")
     public String hello(){
         return "hello world ! " ;
@@ -29,6 +34,11 @@ public class HelloController {
         person.setAge(age);
         person.setLastName(lastName);
         return person ;
+    }
+
+    @RequestMapping("/sayHello")
+    public String sayHello(){
+            return "hello" + name ;
     }
 
 }
