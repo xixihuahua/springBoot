@@ -1,0 +1,11 @@
+2019-08-19 14:58:15.427  INFO 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : Starting SpringBoot03LoggingApplicationTests on DESKTOP-M84VCVO with PID 8408 (started by 24360 in D:\MyIdeaProject\spring-boot-helloworld\spring-boot-03-logging)
+2019-08-19 14:58:15.447 DEBUG 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : Running with Spring Boot v2.1.7.RELEASE, Spring v5.1.9.RELEASE
+2019-08-19 14:58:15.450  INFO 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2019-08-19 14:58:19.063  INFO 8408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-19 14:58:19.677  INFO 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : Started SpringBoot03LoggingApplicationTests in 5.102 seconds (JVM running for 7.159)
+2019-08-19 14:58:20.172 TRACE 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : 。。。。。这是TRACE信息
+2019-08-19 14:58:20.172 DEBUG 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : ------------debug信息
+2019-08-19 14:58:20.172  INFO 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : 这是INFO级别信息
+2019-08-19 14:58:20.172  WARN 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : ------------warn信息
+2019-08-19 14:58:20.172 ERROR 8408 --- [main] .t.l.SpringBoot03LoggingApplicationTests : ------------error信息
+2019-08-19 14:58:20.181  INFO 8408 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-02" />
+        <module name="spring-boot-03-logging" />
+        <module name="spring-boot-04-web-restful" />
+        <module name="spring-boot-helloworld" />
+        <module name="springboothelloworld" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-02" target="1.8" />
+      <module name="spring-boot-03-logging" target="1.8" />
+      <module name="spring-boot-04-web-restful" target="1.8" />
+      <module name="spring-boot-helloworld" target="1.8" />
+      <module name="springboothelloworld" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-02" options="-parameters" />
+      <module name="spring-boot-03-logging" options="-parameters" />
+      <module name="spring-boot-04-web-restful" options="-parameters" />
+      <module name="spring-boot-helloworld" options="-parameters" />
+      <module name="springboothelloworld" options="-parameters" />
+    </option>
+  </component>
+</project>
