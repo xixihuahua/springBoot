@@ -3,7 +3,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config-02/pom.xml" />
         <option value="$PROJECT_DIR$/springboothelloworld/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-03-logging/pom.xml" />

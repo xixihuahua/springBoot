@@ -9,7 +9,6 @@
         <module name="config-02" />
         <module name="spring-boot-03-logging" />
         <module name="spring-boot-04-web-restful" />
-        <module name="spring-boot-helloworld" />
         <module name="springboothelloworld" />
       </profile>
     </annotationProcessing>
